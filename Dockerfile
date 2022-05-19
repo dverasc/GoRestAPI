@@ -37,4 +37,4 @@ RUN /bin/bash & ls /go/bin
 
 
 EXPOSE 8080
-ENTRYPOINT ["/go/bin/DrawD-GraphQL", "run  *.go"]
+ENTRYPOINT ["/go/bin/GoRestAPI", "run  *.go"]
